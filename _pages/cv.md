@@ -11,37 +11,29 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+<!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in Jekyll, GitHub University, 2014 -->
+* B.Sc. in Mathematics, University of Science, VNUHCM, 2021-2025 (expected)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Fall 2024: Research Students
+  * Faculty of Mathematics and Computer Science, HCMUS
+  * Research topics: Mirror Descent and some applications
+  * Supervisor: Dr. Dang-Khoa Nguyen
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Fall 2023 - Fall 2024: Research Assistant
+  * Vietnam Polymath REU 
+  * Research topics: Reconfiguration Problems in Graphs
+  * Supervisor: Dr. Duc A. Hoang
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2023: Research Assistant
+  * Institute of Mathematics, Vietnam Academy of Science and Technology
+  * Research topics: Mathematical Foundations of Neural ODEs
+  * Supervisor: Professor. Thai-Son Doan
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
@@ -61,4 +53,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
