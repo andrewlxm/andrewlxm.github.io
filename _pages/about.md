@@ -7,7 +7,12 @@ redirect_from:
   - /about.html
 ---
 
- Hello, my name is Quan Lam Nhat (you can also call me Andrew). I am currently in my final year of my undergraduate journey. My major is Numerical Analysis, with a little minor in Optimization and Machine Learning (there are a lot of reasons why I chose this major lol).
+ Hello, my name is Quan Lam Nhat (you can also call me Andrew). I am currently Master 2 Bézout Scholar at **Gustave Eiffel University**, which specializes in Data Science, Geometry and Optimization. Prior to that, I completed my Bachelor of Science in Mathematics (Honors Program) at **University of Science - Vietnam National University Ho Chi Minh city**, specializing in Numerical Analysis and Optimization. I was very lucky to be advised by **Professor. Dang-Khoa Nguyen** for my bachelor thesis. 
+
+ This is the blog where I will write some thing that I have read or learnt during my research study, most of them will be in the domain of Optimization, Learning Theory, and Geometry (I hope so). Maybe I will write some topics in other domains such as Statistical Learning, Diffusion, PDE, etc. I hope you guys can find something interesting here.
+
+ Contact: **nhat-quan.lam@edu.univ-eiffel.fr**
+
 
 <!-- A data-driven personal website
 ======

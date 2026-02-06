@@ -11,21 +11,28 @@ redirect_from:
 
 Education
 ======
-<!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014 -->
-* B.Sc. in Mathematics, University of Science, VNUHCM, 2021-2025 (expected)
+<!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected)-->
+
+* M.Sc. (Master 2) in Mathematics and Computer Science, Université Gustave Eiffel, 2025-2026
+* B.Sc. in Mathematics, University of Science, VNUHCM, 2021-2025
 
 Work experience
 ======
-* Fall 2024: Research Students
+* Fall 2025: Research Student
+  * VinBigdata Institute, Hanoi, Vietnam & Northeastern University, Boston, Massachusetts, USA
+  * Research topics: High Probability Convergence in Gradient Descent
+  * Supervisor: Professor. Huy Le Nguyen
+
+
+* Fall 2024: Research Student (Internship)
   * Faculty of Mathematics and Computer Science, HCMUS
-  * Research topics: Mirror Descent and some applications
-  * Supervisor: Dr. Dang-Khoa Nguyen
+  * Research topics: Mirror Descent and some applications in convex optimization problems
+  * Supervisor: Professor. Dang-Khoa Nguyen
 
 * Fall 2023 - Fall 2024: Research Assistant
   * Vietnam Polymath REU 
   * Research topics: Reconfiguration Problems in Graphs
-  * Supervisor: Dr. Duc A. Hoang
+  * Supervisor: Professor. Duc A. Hoang
 
 * Summer 2023: Research Assistant
   * Institute of Mathematics, Vietnam Academy of Science and Technology
@@ -38,7 +45,6 @@ Work experience
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
