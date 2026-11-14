@@ -1,0 +1,74 @@
+name: pages build and deployment
+
+on:
+  push:
+    branches:
+      - master
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v7
+
+      - name: Setup Ruby 💎
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3.5"
+          bundler-cache: true
+
+      - name: Setup Python 🐍
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Setup Node 🧰
+        uses: actions/setup-node@v7
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install JS deps 📦
+        run: npm ci
+
+      - name: Install native build deps 🧱
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+
+      - name: Install nbconvert 📓
+        run: pip3 install --upgrade nbconvert
+
+      - name: Build with Jekyll 🔧
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --baseurl /al-folio
+
+      - name: Upload pages artifact 📤
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./_site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages 🚀
+        id: deployment
+        uses: actions/deploy-pages@v5
