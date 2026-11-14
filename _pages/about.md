@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
- Hello, my name is Quan Lam Nhat (you can also call me Andrew). I am an upcoming PhD student in Mathematics at CentraleSupélec, Université Paris-Saclay. Previously, I finished my Master in Math and CS at **Gustave Eiffel University**, which specializes in Data Science, Geometry and Optimization. Prior to that, I completed my Bachelor of Science in Mathematics (Honors Program) at **University of Science - Vietnam National University Ho Chi Minh city**, specializing in Numerical Analysis and Optimization. I was very lucky to be advised by **Prof. Dang-Khoa Nguyen** for my bachelor thesis, and **Prof. François-Xavier Vialard** and **Prof. Théo Lacombe** for my Master thesis. 
+ Hello, my name is Nhat-Quan Lam. I am an upcoming PhD student in Mathematics at CentraleSupélec, Université Paris-Saclay and Inria OPIS. Previously, I finished my Master in Math and CS at **Université Gustave Eiffel**. Prior to that, I completed my Bachelor of Science in Mathematics (Honors Program) at **University of Science - Vietnam National University Ho Chi Minh city**, specializing in Numerical Analysis and Optimization. I was very lucky to be advised by **Prof. Dang-Khoa Nguyen** for my bachelor thesis, and **Prof. François-Xavier Vialard** and **Prof. Théo Lacombe** for my Master thesis. 
 
- This is the blog where I will write some thing that I have read or learnt during my research study, most of them will be in Optimal Control, Stochastic Optimization. Maybe I will write some topics in other domains such as Statistical Learning, Diffusion, PDE, etc. I hope you guys can find something interesting here.
+ This is the blog where I will write some thing that I have read or learnt during my research study, most of them will be in optimal control, stochastic optimization. Hope you guys can find something interesting here.
 
- Contact: **nhat-quan.lam@edu.univ-eiffel.fr**
+ Contact: **lnquan.work@gmail.com**
 
 
 <!-- A data-driven personal website
