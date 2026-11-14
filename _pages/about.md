@@ -26,6 +26,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi there, my name is *Nhat-Quan* (just Quan for short). I am an upcoming PhD student in Mathematics at the Centre de Vision Numérique, CentraleSupélec, Université Paris-Saclay, under supervision of ... and  .... Before that, I worked with *Prof. Théo Lacombe (LIGM)* and *Prof. François-Xavier Vialard (LIGM)* in Semi-discrete Optimal Transport and Diffusion models.
+Hi there, my name is _Nhat-Quan_ (just Quan for short). I am an upcoming PhD student in Mathematics at the Centre de Vision Numérique, CentraleSupélec, Université Paris-Saclay, under supervision of ... and .... Before that, I worked with _Prof. Théo Lacombe (LIGM)_ and _Prof. François-Xavier Vialard (LIGM)_ in Semi-discrete Optimal Transport and Diffusion models.
 
 This is the blog where I will write some thing that I have read or learnt during my research study, most of them will be in optimal control, stochastic optimization. Hope you guys can find something interesting here.
