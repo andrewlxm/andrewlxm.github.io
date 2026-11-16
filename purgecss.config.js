@@ -1,8 +1,8 @@
 module.exports = {
-  content: ["_site/**/*.html", "_site/**/*.js"],
-  css: ["_site/assets/css/*.css"],
-  output: "_site/assets/css/",
-  skippedContentGlobs: ["_site/assets/**/*.html"],
+  content: ["dist/**/*.html", "dist/**/*.js"],
+  css: ["dist/assets/css/*.css"],
+  output: "dist/assets/css/",
+  skippedContentGlobs: ["dist/assets/**/*.html"],
   safelist: [
     "collapse",
     "collapsing",
