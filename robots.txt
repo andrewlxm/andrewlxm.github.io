@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://andrewlxm.github.io/lnquan/sitemap.xml
+Sitemap: https://andrewlxm.github.io/sitemap.xml
